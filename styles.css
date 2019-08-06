@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
 
 :root{
-  --vividOrange:#fb6107;
+  --tomato:#ef624c;
   --dandelion:#f3de2c;
   --appleGreen:#7cb518;
   --avocado: #5c8001;
@@ -147,6 +147,7 @@ body {
 }
 .fa-shopping-cart {
   margin-right: 0.5rem;
+  
 }
 .img-container:hover .bag-btn {
   transform: translateX(0);
@@ -196,7 +197,7 @@ body {
   height: 100%;
   overflow: scroll;
   z-index: 3;
-  background: var(--dandelion);
+  background: var(--brightYellow);
   padding: 1.5rem;
   transition: var(--mainTransition);
   transform: translateX(100%);
@@ -249,12 +250,12 @@ body {
   text-align: center;
 }
 .remove-item {
-  color: grey;
+  color: var(--tomato);
   cursor: pointer;
 }
 .fa-chevron-up,
 .fa-chevron-down {
-  color: var(--primaryColor);
+  color: var(--tomato);
   cursor: pointer;
 }
 /*---------- End of Cart Item -------------------- */

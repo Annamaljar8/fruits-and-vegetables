@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Comfy House</title>
+    <title>Fruits and Vegetables</title>
     <!-- font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
@@ -72,7 +72,7 @@
         <div class="cart-content">
           <!--cart item-->
           <div class="cart-item" v-for="list in lists">
-            <img v-bind:src="'./images/product-'+list.id+'.jpeg'" alt="product">
+            <img v-bind:src="'./images/product_'+list.id+'.jpg'" alt="product">
             <div>
               <h4>{{ list.title }}</h4>
               <h5>{{ list.price * list.count }}</h5>
